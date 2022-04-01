@@ -1,0 +1,263 @@
+/* body element css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #ffffff;
+    font-size: 20px;
+    /* font-family: 'Fredoka', sans-serif; */
+    font-family: The Sans, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* pseudo class css */
+
+:root {
+    --grey: #393b3f;
+    --primary_grey: rgba(29,29,32,0.8);
+    --original_grey: #505050;
+    --light_white: #f4f5ff;
+    --primary_white: #eaeaeb;
+    --original_white: #ffffff;
+    --primary_black: #1d1e20;
+    --primary_yellow: #dbde0e;
+}
+
+/* Collection Container */
+
+.container_collection{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2a2b2c;
+}
+
+/* begin collection section heading CSS */
+
+
+.collection_section_text_btn{
+    /* background-color: black; */
+    padding: 4rem 2.5rem 6rem 0.5rem;
+}
+
+.collection_section_text_btn h2{
+    font-size: 1.6rem;
+    color: var(--original_white);
+}
+
+.collection_section_text_btn p{
+    font-size: 0.8rem;
+    color: var(--original_white);
+}
+
+
+/* begin collection search section CSS */
+
+.collection_search_section{
+    text-align: center;
+    background-color: var(--grey);
+    padding: 2rem 0.5rem 1.7rem 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.collection_search_section_heading{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--original_white);
+    letter-spacing: 2.7px;
+    margin-bottom: 0.5rem;
+}
+
+.collection_search_section_text_1{
+    font-size: 0.8rem;
+    color: #dee0e2;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.collection_search_section_form{
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+
+.collection_search_section_input{
+    padding: 15px;
+    border: 1px solid transparent;
+    margin-bottom: 0.4rem;
+    width: 70%;
+}
+
+.collection_search_section_btn{
+    padding: 15px;
+    border: 1px solid transparent;
+    color: var(--primary_black);
+    background-color: #50e3c2;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    margin-bottom: 0.4rem;
+    width: 30%;
+}
+
+.collection_search_section_btn:hover{
+    background-color: #09f5c1;
+
+}
+
+
+/* begin latest collection section CSS */
+
+.collection_section_heading{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--primary_white);
+    letter-spacing: 0.1rem;
+    margin: 2rem 0 1.4rem 0;
+    text-transform: uppercase;
+}    
+
+.collection_details_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.collection_card_section{
+    margin: 0 0.6rem 1rem 0.6rem;
+    padding-bottom: 2.1rem;
+    border-radius: 2px;
+    background-color: var(--original_white);
+}
+
+.collection_card_img{
+    width: 100%;
+    border-radius: 2px;
+}
+
+.collection_card_heading{
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+    color: var(--primary_black);
+    font-weight: 700;
+}
+
+/* Begin Online Section CSS*/
+.online_collection_section{
+    margin-bottom: 3rem;
+}
+
+.online_collection_detail_section{
+    background-color: var(--original_white);
+    padding-top: 3rem !important;
+}
+
+/* End Online Section CSS*/
+
+
+/******** Responsive CSS ********/
+
+@media only screen and (min-width: 500px){
+    .collection_details_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .collection_card_section{
+        flex: 40%;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .collection_section_text_btn{
+        padding: 6rem 6rem 7rem 3.25rem;
+    }
+
+    .collection_section_text_btn h2{
+        font-size: 2.8rem;
+    }
+
+    .collection_section_text_btn p{
+        font-size: 1.4rem;
+    }
+
+    .collection_search_section{
+        padding: 2rem 1rem 1.7rem 1rem;
+    }
+
+    .collection_search_section_heading{
+        font-size: 1.2rem;
+    }
+
+    .collection_search_section_text_1{
+        font-size: 0.8rem;
+    }
+
+    .collection_search_section_input{
+        width: 75%;
+    }
+
+    .collection_search_section_btn{
+        width: 25%;
+    }
+
+    .collection_section_heading{
+        font-size: 1.2rem;
+    }
+
+    .collection_details_section{
+        padding: 0 3.25rem;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+    .navbar_text:nth-child(3){
+        border-bottom: 4px solid var(--primary_yellow);
+    }
+
+    .collection_card_section{
+        flex: 20%;
+    }
+
+    .online_collection_detail_section{
+        padding: 3rem 3.5% 0rem 3.5%;
+    }
+
+    .online_collection_card{
+        flex: 30%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    
+    .padding_container{
+        padding: 0 9%;
+    }
+
+    .collection_search_section{
+        margin: 1.5rem 9% 0rem;
+    }
+
+    .collection_section{
+        padding: 0rem 3.8%;
+    }
+
+    .online_collection_section{
+        padding: 0rem 9%;
+    }
+
+}    

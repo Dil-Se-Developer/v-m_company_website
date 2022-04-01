@@ -1,0 +1,463 @@
+/* body element css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #ffffff;
+    font-size: 20px;
+    /* font-family: 'Fredoka', sans-serif; */
+    font-family: The Sans, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_box{
+    /* background-color: violet; */
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/bg_img_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* pseudo class css */
+
+:root {
+    --grey: #393b3f;
+    --primary_grey: rgba(29,29,32,0.8);
+    --original_grey: #505050;
+    --light_white: #f4f5ff;
+    --primary_white: #eaeaeb;
+    --original_white: #ffffff;
+    --primary_black: #1d1e20;
+    --primary_yellow: #dbde0e;
+}
+
+
+/* about company section */
+
+.about_company_text_btn{
+    /* background-color: black; */
+    padding: 4rem 2.5rem 9rem 0.5rem;
+}
+
+.about_company_text_btn h2{
+    font-size: 1.6rem;
+    color: var(--primary_white);
+}
+
+.about_company_text_btn button{
+    margin-top: 12px;
+    font-size: 0.6rem;
+    padding: 14.3px 19.5px;
+    letter-spacing: 0.1rem;
+    border: 1px solid transparent;
+    background-color: var(--primary_grey);
+    color: var(--light_white);
+    font-weight: 700;
+}
+
+.about_company_details{
+    background-color: var(--primary_grey);
+    padding: 1rem 0.6rem;
+}
+
+.about_company_timing{
+    display: flex;
+    flex-direction: column;
+}
+
+.find_more_about_company h2{
+    font-size: 1.1rem;
+    color: var(--primary_white);
+    margin-bottom: 1.1rem;
+}
+
+.find_more_about_company a{
+    font-size: 0.8rem;
+    color: var(--primary_white);
+    border-bottom: 1px solid var(--primary_white);
+    font-weight: 600;
+}
+
+.about_company_booking_section i{
+    margin-right: 0.3rem;
+}
+
+.about_company_booking_section h5{
+    font-size: 0.9rem;
+    color: var(--original_white);
+    margin: 0.4rem 0;
+}
+
+.about_company_booking_section p{
+    color: var(--original_white);
+    font-size: 0.7rem;
+    margin-left: 1.45rem;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.about_company_booking_section a{
+    font-size: 0.7rem;
+    color: var(--original_white);
+    margin-left: 1.45rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--original_white);
+}
+
+.company_opening_times, .company_online_booking, .company_address{
+    margin-bottom: 1.6rem;
+}
+
+.company_visit_btn a button{
+    font-size: 0.6rem;
+    color: var(--primary_white);
+    background-color: transparent;
+    border: 1px solid;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 2rem 0 1.2rem 0;
+    font-weight: 600;
+}
+
+.company_social_media_handals p {
+    font-size: 0.6rem;
+    color: var(--primary_white);
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+}
+
+.company_social_media_handals i{
+    color: var(--primary_white);
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+/* second section css */
+.second_section_bg{
+    background-image: url(../images/second_section_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0.6rem 0.6rem;
+}
+
+.second_section {
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+}
+ 
+.second_section h2 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--original_grey);
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+}
+
+.second_section h3 {
+    color: var(--primary_black);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.second_section p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--original_grey);
+    margin-bottom: 1.5rem;
+    padding: 0 0.8rem;
+}
+
+.second_section button {
+    color: var(--primary_black);
+    padding: 15px 25px;
+    font-size: 0.65rem;
+    background-color: #f5f6ff;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-bottom: 0.8rem;
+}
+
+.second_section button:hover {
+    background-color: #bbf3fa;
+}
+
+/* Exhibitons Section CSS */
+
+.exhibitions_section_heading{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary_white);
+    letter-spacing: 0.1rem;
+    margin: 1.8rem 0 1rem 0;
+    text-transform: uppercase;
+    /* background-color: black; */
+}
+
+.exhibitions_details_section {
+    background-color: var(--primary_grey);
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibitions_cards_section{
+    margin: 1.2rem 1.3rem;
+    /* border-bottom: 1px solid #70787c; */
+}
+
+.exhibitions_cards_img{
+    width: 100%;
+}   
+
+.exhibitions_cards_heading_1{
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: var(--primary_white);
+    margin-top: 0.5rem;
+}
+
+.exhibitions_cards_heading_2{
+    font-size: 1.2rem;
+    color: var(--primary_white);
+    margin-top: 0.4rem;
+}
+
+.exhibitions_cards_text{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #b7b8bd;
+    margin-top: 0.4rem;
+}
+
+.exhibitions_cards_link{
+    margin-top: 3.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #70787c;
+}
+
+.exhibitions_cards_link a{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #f5f6ff;
+}
+
+.more_details_about_exhibitions{
+    background-color: var(--primary_black);
+    text-align: center;
+    padding: 1rem;
+}
+
+.more_details_about_exhibitions i{
+    font-size: 3rem;
+    color: #f4f5ff;
+    cursor: pointer;
+}
+
+.more_details_about_exhibitions p{
+    font-size: 0.65rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: var(--original_white);
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+/* Form_Section_1_CSS */
+
+.third_section{
+    text-align: center;
+    background-color: #dee0e2;
+    padding: 2rem 0.5rem 1.7rem 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.third_section_heading{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary_black);
+    margin-bottom: 0.3rem;
+}
+
+.third_section_text_1{
+    font-size: 0.8rem;
+    color: var(--primary_black);
+    line-height: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.third_section_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+}
+
+.third_section_email{
+    padding: 15px;
+    border: 1px solid transparent;
+    margin-bottom: 0.4rem;
+}
+
+.third_section_btn{
+    padding: 15px;
+    border: 1px solid transparent;
+    background-color: var(--primary_black);
+    color: var(--primary_white);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+}
+
+.third_section_btn:hover{
+    color: var(--primary_black);
+    background-color: #bbf3fa;
+
+}
+
+.third_section_text_2{
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: #505354;
+}
+
+.third_section_text_2 span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* collection_section_css */
+
+.collection_section_heading{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--primary_white);
+    letter-spacing: 0.1rem;
+    margin: 2rem 0 1.4rem 0;
+    text-transform: uppercase;
+    /* background-color: black; */
+}    
+
+.collection_details_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.collection_card_section{
+    margin: 0 0.6rem 1rem 0.6rem;
+    padding-bottom: 2.1rem;
+    border-radius: 2px;
+    background-color: var(--original_white);
+    /* background-color: red; */
+}
+
+.collection_card_img{
+    width: 100%;
+    border-radius: 2px;
+}
+
+.collection_card_heading{
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+    color: var(--primary_black);
+    font-weight: 700;
+}
+
+.collection_section_btn {
+    text-align: center;
+    margin: 0.4rem 0.5rem 3.5rem 0.5rem;
+}
+
+.collection_section_btn button{
+    font-size: 0.65rem;
+    padding: 15px 35px 15px 25px;
+    letter-spacing: 0.1rem;
+    border: 1px solid transparent;
+    background-color: var(--primary_black);
+    color: var(--light_white);
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--light_white);
+    border-radius: 2px;
+}
+
+/* membership_section_css */
+
+.membership_section_bg{
+    padding: 0.5rem;
+    background-image: url(../images/membership_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3.2rem;
+}
+
+.membership_section{
+    text-align: center;
+    /* padding: 0rem 1rem 2rem 1rem; */
+    padding:0 0.35rem 2rem 0.35rem;
+    background-color: rgba(29,30,32,0.5);
+}
+
+.membership_section_heading{
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-top: 1.6rem;
+    padding-bottom: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: #eaeaea;
+    text-transform: uppercase;
+}
+
+.membership_section_text{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #eaeaea;
+    line-height: 1.2rem;
+    margin-bottom: 0.9rem;
+}
+
+.membership_section_btn{
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--primary_black);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 15px 35px 15px 25px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.membership_section_btn:hover{
+    background-color: #bbf3fa;
+}
+
+.shop_section_bg{
+    padding: 0.5rem;
+    background-image: url(../images/shop_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1.7rem;
+}
+

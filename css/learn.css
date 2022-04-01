@@ -1,0 +1,244 @@
+/* body element css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #ffffff;
+    font-size: 20px;
+    /* font-family: 'Fredoka', sans-serif; */
+    font-family: The Sans, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* pseudo class css */
+
+:root {
+    --grey: #393b3f;
+    --primary_grey: rgba(29,29,32,0.8);
+    --original_grey: #505050;
+    --light_white: #f4f5ff;
+    --primary_white: #eaeaeb;
+    --original_white: #ffffff;
+    --primary_black: #1d1e20;
+    --primary_yellow: #dbde0e;
+}
+
+/* learn container box CSS */
+
+.learn_container_box{
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/learn_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Begin Learn Heading Section CSS  */
+
+.learn_heading_section h1{
+    font-size: 1.6rem;
+    color: var(--primary_white);
+    font-weight: 600;
+    padding: 5rem 0rem;
+}
+
+
+/* general  css for */
+
+.general_text_1{
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--primary_black);
+}
+
+.general_text_1 b{
+    font-weight: 600;
+}
+
+.general_text_1 a{
+    color: var(--primary_black);
+    text-decoration: underline;
+}
+
+/* Begin Learn Main Content Section */
+
+.learn_main_content_section{
+    margin-bottom: 6rem;
+}
+
+/* Begin Learn Section Paragraph */
+
+.first_learn_section{
+    padding-top: 1.2rem;
+    padding-bottom: 3.5rem;
+    background-color: var(--original_white);
+}
+
+
+.first_learn_section_paragraph{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--primary_black);
+}
+
+
+/* Begin Learn Second Section CSS */
+
+
+.second_learn_section{
+    padding-bottom: 3rem;
+    background-color: var(--original_white);
+}
+
+.content_section_top{
+    text-align: center;
+}
+
+.content_section_top span{
+    color: #b7b8bd;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+
+.content_section_top h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 1rem 0 2rem 0;
+}
+
+.general_content_section_img{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.general_content_section_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.general_btn_section{
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    color: var(--primary_black);
+    background-color: hsl(127, 32%, 69%);
+    border-radius: 2px;
+    padding: 15px 25px;
+    transition: background-color 0.5s ease;
+    border: 1px solid transparent;
+}
+
+.general_btn_section:hover{
+    background-color: hsl(127, 32%, 64%);
+}
+
+
+
+/* Begin Learn third Section CSS */
+
+.third_learn_section{
+    padding-bottom: 3rem;
+    background-color: var(--original_white);
+}
+
+
+/* Begin Learn fourth Section CSS */
+
+.fourth_learn_section{
+    padding-bottom: 3rem;
+    background-color: var(--original_white);
+}
+
+/* Begin Learn fifth Section CSS */
+
+.fifth_learn_section{
+    padding-bottom: 3rem;
+    background-color: var(--original_white);
+}
+
+/* Begin Learn sixth Section CSS */
+
+.sixth_learn_section{
+    padding-bottom: 3rem;
+    background-color: var(--original_white);
+}
+
+
+/************ Responsive CSS **************/
+
+
+
+@media only screen and (min-width: 768px){
+    .learn_heading_section h1{
+        font-size: 2.8rem;
+        padding: 6rem 0rem;
+    }
+
+    .first_learn_section{
+        padding: 4rem 10% 3.5rem 10%;
+    }
+
+    .first_learn_section_paragraph{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .general_text_section{
+        padding: 4rem 10% 3.5rem 10%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .navbar_text:nth-child(4){
+        border-bottom: 4px solid var(--primary_yellow);
+    }
+
+    .learn_heading_section h1{
+        font-size: 2.8rem;
+        padding: 15rem 0rem 1.5rem 0rem;
+    }
+
+    .first_learn_section{
+        padding: 4rem 12% 3.5rem 12%;
+    }
+
+    .general_text_section{
+        padding: 4rem 12% 3.5rem 12%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .learn_heading_section{
+        padding: 0 7%;
+    }
+
+    .learn_heading_section h1{
+        font-size: 2.8rem;
+        padding: 15rem 0rem 1.5rem 0rem;
+    }
+
+    .first_learn_section{
+        padding: 4rem 15% 3.5rem 15%;
+    }
+
+    .general_text_section{
+        padding: 4rem 15% 3.5rem 15%;
+    }
+
+}

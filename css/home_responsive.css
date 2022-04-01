@@ -1,0 +1,226 @@
+@media only screen and (min-width: 500px){
+    .about_company_timing{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .find_more_about_company{
+        flex: 100%;
+    }
+
+    .find_more_about_company h2{
+        font-size: 2rem;
+        margin-bottom: 1.1rem;
+    }
+    
+    .about_company_booking_section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .company_opening_times{
+        flex: 35%;
+    }
+
+    .company_online_booking{
+        flex: 35%;
+    }
+
+    .company_online_booking h5{
+        padding-left: 1.5rem;
+    }
+
+    .about_company_social_media{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .company_visit_btn{
+        flex: 50%;
+    }
+
+    .company_visit_btn a button{
+        margin-left: 1rem;
+    }
+
+    .company_social_media_handals{
+        flex: 50%;
+        align-self: center;
+    }
+
+    .exhibitions_details_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .exhibitions_cards_section{
+        flex: 30%;
+    }
+
+    .third_section_form{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .third_section_email{
+        flex: 70%;
+        margin: 0;
+        margin-right: 0.5rem;
+        width: 100%;
+    }
+
+    .third_section_btn{
+        flex: 10%;
+    }
+
+    .collection_details_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .collection_card_section{
+        flex: 40%;
+    }
+
+    .collection_card_img{
+        width: 100%;
+        border-radius: 2px;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .about_company_text_btn{
+        padding: 6rem 6rem 7rem 3.25rem;
+    }
+
+    .about_company_text_btn h2{
+        font-size: 2.8rem;
+    }
+
+    .about_company_details{
+        padding: 1.5rem 3.25rem;
+    }
+
+    .find_more_about_company{
+        flex: 40%;
+    }
+
+    .about_company_timing{
+        gap: 1rem 1.5rem;
+    }
+
+    .about_company_booking_section{
+        flex-direction: column;
+        flex: 40%;
+    }
+
+    .company_opening_times{
+        flex: 1;
+    }
+
+    .company_online_booking{
+        flex: 1;
+    }
+
+    .company_online_booking h5{
+        padding-left: 0rem;
+    }
+
+    .second_section_bg{
+        background-image: none;
+    }
+
+    .exhibitions_details_section{
+        padding: 2rem 2rem;
+    }
+
+    .third_section_heading{
+        font-size: 1.2rem;
+    }
+
+    .third_section_text_1{
+        font-size: 0.8rem;
+    }
+
+    .third_section{
+        padding: 2rem 1rem 1.7rem 1rem;
+    }
+
+    .exhibitions_section_heading, .collection_section_heading{
+        font-size: 1.2rem;
+    }
+
+    .collection_details_section{
+        padding: 0 3.25rem;
+    }
+    
+    .membership_section{
+        text-align: center;
+        padding:0 1rem 1rem 1rem;
+        background-color: rgba(29,30,32,0.5);
+    }
+
+    .membership_section_heading{
+        font-size: 0.8rem;
+    }
+
+    .membership_section_text{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px){
+    .container_box{
+        background-position: 0px 0px;
+    }
+
+    .navbar_text:nth-child(1){
+        border-bottom: 4px solid var(--primary_yellow);
+    }
+
+    .exhibitions_cards_section{
+        flex: 25%;
+    }
+
+    .collection_card_section{
+        flex: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .padding_container{
+        padding: 0 9%;
+    }
+
+    .second_section_bg{
+        padding: 2rem 9%;
+    }
+
+    .exhibitions_section{
+        padding: 0rem 9%;
+    }
+
+    .third_section{
+        margin: 1.5rem 9% 0rem;
+    }
+
+    .collection_section{
+        padding: 0rem 3.8%;
+    }
+
+    .membership_section_bg{
+        margin: 0rem 9% 3.2rem;
+    }
+
+    .shop_section_bg{
+        margin: 0rem 9% 3.2rem;
+    }
+}
